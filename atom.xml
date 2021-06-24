@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://microadmin.github.io</id>
+    <id>http://microadmin.top/</id>
     <title>Gridea</title>
-    <updated>2021-06-24T00:58:36.046Z</updated>
+    <updated>2021-06-24T01:09:39.147Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://microadmin.github.io"/>
-    <link rel="self" href="https://microadmin.github.io/atom.xml"/>
+    <link rel="alternate" href="http://microadmin.top/"/>
+    <link rel="self" href="http://microadmin.top/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://microadmin.github.io/images/avatar.png</logo>
-    <icon>https://microadmin.github.io/favicon.ico</icon>
+    <logo>http://microadmin.top/images/avatar.png</logo>
+    <icon>http://microadmin.top/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>https://microadmin.github.io/post/about/</id>
-        <link href="https://microadmin.github.io/post/about/">
+        <id>http://microadmin.top/post/about/</id>
+        <link href="http://microadmin.top/post/about/">
         </link>
         <updated>2021-06-24T00:58:11.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
