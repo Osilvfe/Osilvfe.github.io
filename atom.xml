@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://microadmin.github.io</id>
     <title>Gridea</title>
-    <updated>2021-06-23T09:51:31.859Z</updated>
+    <updated>2021-06-24T00:58:36.046Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://microadmin.github.io"/>
     <link rel="self" href="https://microadmin.github.io/atom.xml"/>
@@ -10,4 +10,19 @@
     <logo>https://microadmin.github.io/images/avatar.png</logo>
     <icon>https://microadmin.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://microadmin.github.io/post/about/</id>
+        <link href="https://microadmin.github.io/post/about/">
+        </link>
+        <updated>2021-06-24T00:58:11.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站-emmm-个人博客啦">🏠 关于本站       emmm...... 个人博客啦</h2>
+<h2 id="博主是谁-microadmin">👨‍💻 博主是谁       Microadmin</h2>
+<h2 id="兴趣爱好-计算机">⛹ 兴趣爱好       计算机</h2>
+<h2 id="联系我呀-qq3072756864">📬 联系我呀       QQ：3072756864</h2>
+]]></content>
+    </entry>
 </feed>
