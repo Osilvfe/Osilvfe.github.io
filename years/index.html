@@ -224,39 +224,39 @@ function time() {
     
     window.setTimeout("time()", 1000);
     var todayYear = today.getFullYear();
-    var seconds = 1000
-    var minutes = seconds * 60
-    var hours = minutes * 60
-    var days = hours * 24
-    var nian = 365
-     if(todayYear%4 == 0){nian = 366}
-     else{nian = 365}
-    var years = days * nian
-    var today = new Date()
-    var newYear=todayYear+1
-    var lastYear=todayYear-1
-    var todayMonth = today.getMonth() + 1
-    var todayDate = today.getDate()
-    var todayHour = today.getHours()
-    var todayMinute = today.getMinutes()
-    var todaySecond = today.getSeconds()
-    var t1 = Date.UTC(newYear, 1, 1, 0, 00, 00)
-    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
-    var diff = t1 - t2
-    var diff2 = t2-t1
-    var diffYears = Math.floor(diff / years)
-    var diffDays = Math.floor((diff / days) - diffYears * nian)
-    var diffHours = Math.floor((diff - (diffYears * nian + diffDays) * days) / hours)
-    var diffMinutes = Math.floor((diff - (diffYears * nian + diffDays) * days - diffHours * hours) / minutes)
-    var diffSeconds = Math.floor((diff - (diffYears * nian + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds)
-    var diff2Years = Math.floor(diff2 / years)
-    var diff2Days = Math.floor((diff2 / days) - diff2Years * nian)
-    var diff2Hours = Math.floor((diff2 - (diff2Years * nian + diff2Days) * days) / hours)
-    var diff2Minutes = Math.floor((diff2 - (diff2Years * nian + diff2Days) * days - diff2Hours * hours) / minutes)
-    var diff2Seconds = Math.floor((diff2 - (diff2Years * nian + diff2Days) * days - diff2Hours * hours - diff2Minutes * minutes) / seconds)
-     if(todayMonth==1){if(todayDate==1){document.getElementById("text1").innerHTML =  "现在是1月1日,祝你"+todayYear+"新年快乐！"}}
-     else{document.getElementById("text1").innerHTML =  "提前祝你"+newYear+"新年快乐"}
-     document.getElementById("time").innerHTML =  diffDays + "天" + diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒"+newYear
+    var seconds = 1000;
+    var minutes = seconds * 60;
+    var hours = minutes * 60;
+    var days = hours * 24;
+    var nian = 365;
+     if(todayYear%4 == 0){nian = 366;}
+     else{nian = 365;}
+    var years = days * nian;
+    var today = new Date();
+    var newYear=todayYear+1;
+    var lastYear=todayYear-1;
+    var todayMonth = today.getMonth() + 1;
+    var todayDate = today.getDate();
+    var todayHour = today.getHours();
+    var todayMinute = today.getMinutes();
+    var todaySecond = today.getSeconds();
+    var t1 = Date.UTC(newYear, 1, 1, 0, 00, 00);
+    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+    var diff = t1 - t2;
+    var diff2 = t2-t1;
+    var diffYears = Math.floor(diff / years);
+    var diffDays = Math.floor((diff / days) - diffYears * nian);
+    var diffHours = Math.floor((diff - (diffYears * nian + diffDays) * days) / hours);
+    var diffMinutes = Math.floor((diff - (diffYears * nian + diffDays) * days - diffHours * hours) / minutes);
+    var diffSeconds = Math.floor((diff - (diffYears * nian + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+    var diff2Years = Math.floor(diff2 / years);
+    var diff2Days = Math.floor((diff2 / days) - diff2Years * nian);
+    var diff2Hours = Math.floor((diff2 - (diff2Years * nian + diff2Days) * days) / hours);
+    var diff2Minutes = Math.floor((diff2 - (diff2Years * nian + diff2Days) * days - diff2Hours * hours) / minutes);
+    var diff2Seconds = Math.floor((diff2 - (diff2Years * nian + diff2Days) * days - diff2Hours * hours - diff2Minutes * minutes) / seconds);
+     if(todayMonth==1){if(todayDate==1){document.getElementById("text1").innerHTML =  "现在是1月1日,祝你"+todayYear+"新年快乐！";}}
+     else{document.getElementById("text1").innerHTML =  "提前祝你"+newYear+"新年快乐";}
+     document.getElementById("time").innerHTML =  diffDays + "天" + diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒"+newYear;
 }
 time()
 </script>
